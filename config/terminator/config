@@ -1,0 +1,37 @@
+[global_config]
+  dbus = False
+  scroll_tabbar = True
+  inactive_color_offset = 0.7439024390243902
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, Logger, DumpToFile
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    urgent_bell = True
+    background_color = "#1c1b19"
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_shape = ibeam
+    font = FiraCode Nerd Font 12
+    foreground_color = "#fce8c3"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#1c1b19:#ef2f27:#519f50:#fbb829:#2c78bf:#e02c6d:#0aaeb3:#baa67f:#918175:#f75341:#98bc37:#fed06e:#68a8e4:#ff5c8f:#2be4d0:#fce8c3"
+    use_system_font = False
+    bold_is_bright = True
+    title_transmit_fg_color = "#22242d"
+    title_transmit_bg_color = "#22242d"
+    title_receive_fg_color = "#22242d"
+    title_receive_bg_color = "#22242d"
+    title_inactive_fg_color = "#22242d"
+    title_inactive_bg_color = "#22242d"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

@@ -1,0 +1,40 @@
+/* ░▀█▀░█▀▀░█▀▄░█▄█░▀█▀░█▀█░█▀█░▀█▀░█▀█░█▀▄ */
+/* ░░█░░█▀▀░█▀▄░█░█░░█░░█░█░█▀█░░█░░█░█░█▀▄ */
+/* ░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀░▀░░▀░░▀▀▀░▀░▀ */
+/* http://blog.nabam.net/workstation/2017/09/15/terminator_tabs */
+
+/* Unselected tab background */
+.terminator-terminal-window notebook tab {
+    background-color: #1c1b19;
+    padding: 0px;
+    border: 0px;
+    font-family: "FiraCodeNerdFont", regular;
+}
+
+/* Selected tab background */
+.terminator-terminal-window notebook tab:checked{
+    background-image: none;
+    background-color: #232220;
+}
+
+/* Selected tab name */
+.terminator-terminal-window notebook tab:checked label {
+    color: #fce8c3;
+    font-weight: 500;
+}
+
+/* Unselected tab name */
+.terminator-terminal-window notebook tab label {
+    color: #c9b99c;
+    font-weight: 500;
+}
+
+/* Close tab button */
+.terminator-terminal-window notebook tab button {
+    padding: 0px;
+}
+
+/* Close tab button hover */
+.terminator-terminal-window notebook tab button:hover {
+    color: #ef2f27;
+}
